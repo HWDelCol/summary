@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*warp*/
+.warp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    width: 70vw;
+    height: 70vh;
+    border-radius: 15px;
+}
