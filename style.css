@@ -8,7 +8,6 @@
 
 body {
     height: 100vh;
-    background: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,9 +22,66 @@ a {
 .warp {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #eee;
-    width: 70vw;
-    height: 70vh;
+    width: 518px;
+    height: 518px;
     border-radius: 15px;
+}
+
+/*left*/
+
+.leftside {
+    background: linear-gradient(rgba(127, 125, 207, 100), rgba(41, 39, 159, 100));
+    height: 518px;
+    width: 259px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.leftheader h1 {
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.result {
+    background: linear-gradient(rgba(127, 125, 207, 100), rgba(41, 39, 159, 100));
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.result .number {
+    font-size: 3.5rem;
+    color: #eee;
+}
+
+.result .complement {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.leftfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftfooter .subtitle {
+    font-size: 2rem;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.leftfooter .description {
+    font-size: 1rem;
+    color: #aaa;
+    padding-bottom: 70px;
 }
