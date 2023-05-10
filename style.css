@@ -213,3 +213,21 @@ li {
 .material-symbols-outlined {
     margin-right: 5px;
 }
+
+@media screen and (max-width: 560px) {
+
+    .warp {
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    
+    }
+    .leftside, .rightside {
+        width: 90vw;
+    }
+
+    .buttom {
+        width: 80vw;
+        text-align: center;
+    }
+}
